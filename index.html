@@ -243,7 +243,7 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
@@ -672,11 +672,6 @@
       
 
       
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:609%20216%204179">609 216 4179</a></span>
-      </li>
-      
 
       
       <li>
@@ -698,6 +693,16 @@
 
     </ul>
 
+    
+    <div class="d-none">
+      <input id="map-provider" value="1">
+      <input id="map-lat" value="40.343920">
+      <input id="map-lng" value="-74.652508">
+      <input id="map-dir" value="192G Princeton Neuroscience Institute, Princeton University, NJ, 98544, USA">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
     
 
   </div>
@@ -788,6 +793,11 @@
     
 
     
+    
+      <script async defer src="//maps.googleapis.com/maps/api/js?key="></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
     
 
     
